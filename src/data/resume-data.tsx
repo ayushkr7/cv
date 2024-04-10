@@ -20,99 +20,75 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Ayush Kumar",
+  initials: "AK",
+  location: "Bengaluru, India, IST",
+  locationLink: "https://www.google.com/maps/place/Bengaluru",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "Fullstack Developer proficient with MERN(MongoDB, Express.js, React.js, Node.js) stack. Currently, I work mostly work with React, Redux, and Node.js. Apart from these, I also have a strong command of Data Structures and Algorithms.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "krayush.ak@gmail.com",
+    tel: "+918709870878",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/ayushkr7",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/krayush-ak/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/krayush.ak",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "SRM Institute of Science and Technology",
+      degree: "Bachelor's Degree in Computer Science and Engineering",
+      start: "2019",
+      end: "2023",
     },
   ],
   work: [
     {
-      company: "Parabol",
+      company: "Victoria's Secret",
       link: "https://parabol.co",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Assoc. Frontend Web Developer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "Sept 2023",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Developing features for better user experience of our product. Technologies: React, TypeScript, GraphQL",
     },
     {
-      company: "Clevertech",
+      company: "Honeywell",
       link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      badges: ["On-site"],
+      title: "Software Engineer Intern",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "Jan 2023",
+      end: "June 2023",
+      description: `• Worked on remotely monitoring network devices using version 3 of Simple Network Management Protocol(SNMPv3).
+
+        • Installed Net-SNMP and PySNMP library and configured SNMP Manager and SNMP Agent on virtual machines hosted on virtualbox, PCs, and raspberry pi.
+        
+        • Developed Dash app integrated Django GUI for SNMP Manager with role-based feature enabled and created new OIDs using bash script.
+        
+        • Fetched real-time telemetry from remote network devices using Dash callback and rendered it as text and Graphs with hot-reloading on the Django application.`,
     },
   ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
-  ],
+  skills: ["JavaScript", "React.js", "Node.js", "MongoDB", "C++"],
   projects: [
     {
       title: "Consultly",
